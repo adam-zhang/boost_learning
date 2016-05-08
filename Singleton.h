@@ -1,3 +1,5 @@
+#ifndef __SINGLETON__H
+#define __SINGLETON__H
 template<typename T>
 class Singleton
 {
@@ -19,3 +21,4 @@ public:
 
 template<typename T>
 T* Singleton<T>::instance_ = 0;
+#endif
