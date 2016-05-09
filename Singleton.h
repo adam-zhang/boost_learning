@@ -15,7 +15,7 @@ public:
 		{
 			instance_ = new T;
 		}
-		return *T;
+		return *instance_;
 	}
 };
 
